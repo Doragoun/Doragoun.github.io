@@ -1,0 +1,15 @@
+#Titulo{
+    color: #3B3936;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    
+}
+img{
+    height: 10rem;
+    width: 10rem;
+    object-fit: contain;
+}
+.codigo{
+    color: #00FF00;
+}
