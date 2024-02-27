@@ -1,0 +1,47 @@
+#boton-va{
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+
+#boton-va:hover{
+    color: black;
+    background-color: cadetblue;
+    border-color: black;
+}
+
+#boton-cl{
+    color: gold;
+    background-color: #7D3C98;
+    border-color: #7D3C98;
+}
+
+#boton-cl:hover{
+    color: black;
+    background-color: gold;
+    border-color: gold;
+}
+
+#boton-sh{
+    color: blue;
+    background-color: white;
+    border-color: blue;
+}
+
+#boton-sh:hover{
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+
+#boton-ph{
+    color: red;
+    background-color: white;
+    border-color: red;
+}
+
+#boton-ph:hover{
+    color: white;
+    background-color: red;
+    border-color: red;
+}
