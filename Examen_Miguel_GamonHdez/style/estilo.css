@@ -1,0 +1,57 @@
+img{
+    height: 10rem;
+    width: 10rem;
+    object-fit: contain;
+    margin-top: 0%;
+}
+.codigo{
+    color: #00FF00;
+}
+
+#boton-wi{
+    color: black;
+    background-color: #92C400;
+    border-color: white;
+}
+
+#boton-wi:hover{
+    color: black;
+    background-color: #00B5F1;
+    border-color: black;
+}
+
+#boton-fe{
+    color: white;
+    background-color: #294172;
+    border-color: #3C6EB4;
+}
+
+#boton-fe:hover{
+    color: black;
+    background-color:white;
+    border-color: #294172;
+}
+
+#boton-pop{
+    color: blue;
+    background-color: white;
+    border-color: blue;
+}
+
+#boton-pop:hover{
+    color: black;
+    background-color: #48B9C7;
+    border-color: white;
+}
+
+#boton-kl{
+    color: black;
+    background-color: #A300E4;
+    border-color: #5F00E3;
+}
+
+#boton-kl:hover{
+    color: white;
+    background-color: #5F00E3;
+    border-color: #A300E4;
+}
