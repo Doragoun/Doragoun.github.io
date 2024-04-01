@@ -1,0 +1,59 @@
+#Titulo{
+    color: #3B3936;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    
+}
+img{
+    height: 10rem;
+    width: 10rem;
+    object-fit: contain;
+}
+
+.block{
+    position: relative;
+    margin: 10% auto 0;
+    margin-bottom: 2rem;
+    width: 98%;
+    height: 780px;
+    background: linear-gradient(0deg, black, rgb(44,43,43));
+}
+
+.block::after{
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #e6fb04, #ff6600, #00ff66, #00ffff,
+                                #ff00ff, #ff0099,#6e0dd0, #ff3300, #099fff);
+    background-size: 400%;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate{
+  0%{
+    background-position: 0 0;
+  }
+  50%{
+    background-position: 400% 0;
+  }
+  100%{
+    background-position: 0 0;
+  }  
+}
+
+.glow::after{
+    filter: blur(40px);
+}
+
+#myDiagramDiv {
+    width: 95%;
+    height: 760px;
+    margin: 0 auto; /* Esto centra el div horizontalmente */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }

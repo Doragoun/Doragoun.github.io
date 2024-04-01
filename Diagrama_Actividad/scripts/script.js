@@ -66,21 +66,21 @@ function init() {
     );
 
   var nodeDataArray = [
-    { key: 0, name: "Karmine Corp", source: "/imagenes/Karmine_Corp.png", description: "2", parent: 8  },
-    { key: 1, name: "FunPlus Phoenix", source: "/imagenes/FunPlus_Phoenix.png", description: "0", parent: 8 },
-    { key: 2, name: "Gen.G", source: "/imagenes/Gen.G_Esports.png", description: "2", parent: 9},
-    { key: 3, name: "LOUD", source: "/imagenes/LOUD.png", description: "1", parent: 9 },
-    { key: 4, name: "EDward Gaming", source: "/imagenes/EDward_Gaming.png", description: "2", parent:10 },
-    { key: 5, name: "PAPER REX", source: "/imagenes/Paper_Rex.png", description: "1", parent:10 },
-    { key: 6, name: "Sentinels", source: "/imagenes/Sentinels.png", description: "2", parent: 11 },
-    { key: 7, name: "Team Heretics", source: "/imagenes/Team_Heretics.png", description: "1", parent: 11},
-    { key: 8, name: "Karmine Corp", source: "/imagenes/Karmine_Corp.png", description: "0", parent: 12},
-    { key: 9, name: "Gen.G", source: "/imagenes/Gen.G_Esports.png", description: "2", parent: 13},
-    { key: 10, name: "EDward Gaming", source: "/imagenes/EDward_Gaming.png", description: "1", parent: 13},
-    { key: 11, name: "Sentinels", source: "/imagenes/Sentinels.png", description:"2", parent: 12},
-    { key: 12, name: "Sentinels", source: "/imagenes/Sentinels.png", description:"3", parent: 14},
-    { key: 13, name: "Gen.G", source: "/imagenes/Gen.G_Esports.png", description:"2", parent: 14},
-    { key: 14, name: "Sentinels", source: "/imagenes/Sentinels.png", description: ""}
+    { key: 0, name: "Karmine Corp", source: "./imagenes/Karmine_Corp.png", description: "2", parent: 8  },
+    { key: 1, name: "FunPlus Phoenix", source: "./imagenes/FunPlus_Phoenix.png", description: "0", parent: 8 },
+    { key: 2, name: "Gen.G", source: "./imagenes/Gen.G_Esports.png", description: "2", parent: 9},
+    { key: 3, name: "LOUD", source: "./imagenes/LOUD.png", description: "1", parent: 9 },
+    { key: 4, name: "EDward Gaming", source: "./imagenes/EDward_Gaming.png", description: "2", parent:10 },
+    { key: 5, name: "PAPER REX", source: "./imagenes/Paper_Rex.png", description: "1", parent:10 },
+    { key: 6, name: "Sentinels", source: "./imagenes/Sentinels.png", description: "2", parent: 11 },
+    { key: 7, name: "Team Heretics", source: "./imagenes/Team_Heretics.png", description: "1", parent: 11},
+    { key: 8, name: "Karmine Corp", source: "./imagenes/Karmine_Corp.png", description: "0", parent: 12},
+    { key: 9, name: "Gen.G", source: "./imagenes/Gen.G_Esports.png", description: "2", parent: 13},
+    { key: 10, name: "EDward Gaming", source: "./imagenes/EDward_Gaming.png", description: "1", parent: 13},
+    { key: 11, name: "Sentinels", source: "./imagenes/Sentinels.png", description:"2", parent: 12},
+    { key: 12, name: "Sentinels", source: "./imagenes/Sentinels.png", description:"3", parent: 14},
+    { key: 13, name: "Gen.G", source: "./imagenes/Gen.G_Esports.png", description:"2", parent: 14},
+    { key: 14, name: "Sentinels", source: "./imagenes/Sentinels.png", description: ""}
   ];
 
   myDiagram.model = new go.TreeModel(nodeDataArray);
