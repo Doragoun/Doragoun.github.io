@@ -28,7 +28,7 @@ function init() {
   myDiagram.nodeTemplate =
     $(go.Node, "Horizontal",
       $(go.Shape, "Circle",
-        { width: 8, height: 8, fill: "green", portId: "left", fromLinkable: true, toLinkable: false }),
+        { width: 8, height: 8, fill: "red", portId: "left", fromLinkable: true, toLinkable: false }),
       $(go.Panel, "Auto",
         { width: 50, height: 50, background: "white" },
         $(go.Shape, "Rectangle", { fill: "white", stroke: "black", strokeWidth: 1 }),
@@ -56,13 +56,13 @@ function init() {
           new go.Binding("text", "description"))
       ),
       $(go.Shape, "Circle",
-        { width: 8, height: 8, fill: "green", portId: "right", fromLinkable: false, toLinkable: true })
+        { width: 8, height: 8, fill: "red", portId: "right", fromLinkable: false, toLinkable: true })
     );
 
   myDiagram.linkTemplate =
     $(go.Link,
       { routing: go.Link.AvoidsNodes, toEndSegmentLength: 20, toShortLength: 2 },
-      $(go.Shape, { strokeWidth: 2, stroke: "black" })
+      $(go.Shape, { strokeWidth: 2, stroke: "white" })
     );
 
   var nodeDataArray = [
