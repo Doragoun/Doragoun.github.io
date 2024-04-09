@@ -13,8 +13,9 @@ img{
 }
 
 .neon_let{
-  margin-top: 2em;
-  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: -23px;
+  font-size: 3em;
   font-weight: 500;
   letter-spacing: 5px;
   text-transform: uppercase;
