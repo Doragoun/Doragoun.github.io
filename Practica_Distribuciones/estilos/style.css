@@ -1,0 +1,7 @@
+#myDiagramDiv {
+    width: 95%;
+    height: 760px;
+    margin: 0 auto; /* Esto centra el div horizontalmente */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
