@@ -74,7 +74,7 @@ function init() {
     { key: 5, name: "DEBIAN", source: "./image/Debian.png", description:"2", parent: 7},
     { key: 6, name: "RED HAT", source: "./image/Red_Hat.png", description:"3",parent: 7},
     { key: 7, name: "Linux", source: "./image/Linux.png", description:"2", parent: 8},
-    { key: 8, name: "GNU", source: "./image/GNU.png", description: "Es el padre de Linux"},
+    { key: 8, name: "GNU", source: "https://upload.wikimedia.org/wikipedia/commons/8/83/The_GNU_logo.png", description: "Es el padre de Linux"},
     { key: 9, name: "Linux Mint", source: "./image/Linux_Mint.png", description:"2", parent: 4},
     { key: 10, name: "Slack Ware", source: "./image/slackware.jpg" , description:"2", parent: 7},
   ];
