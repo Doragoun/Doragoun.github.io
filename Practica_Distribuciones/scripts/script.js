@@ -66,17 +66,17 @@ function init() {
     );
 
   var nodeDataArray = [
-    { key: 0, name: "Xubuntu", source: "./imagenes/Xubuntu.png", description: "2", parent: 9},
-    { key: 1, name: "Kubuntu", source: "./imagenes/kubuntu.jpg", description: "1", parent:4},
-    { key: 2, name: "Suse", source: "./imagenes/Suse.png", description: "0",parent:10},
-    { key: 3, name: "Arch Linux", source: "./imagenes/Arch_Linux.png", description: "2", parent: 7},
-    { key: 4, name: "Ubuntu", source: "./imagenes/Ubuntu.png", description: "1", parent: 5},
-    { key: 5, name: "DEBIAN", source: "./imagenes/Debian.png", description:"2", parent: 7},
-    { key: 6, name: "RED HAT", source: "./imagenes/Red_Hat.png", description:"3",parent: 7},
-    { key: 7, name: "Linux", source: "./imagenes/Linux.png", description:"2", parent: 8},
-    { key: 8, name: "GNU", source: "./imagenes/GNU.png", description: "Es el padre de Linux"},
-    { key: 9, name: "Linux Mint", source: "./imagenes/Linux_Mint.png", description:"2", parent: 4},
-    { key: 10, name: "Slack Ware", source: "./imagenes/slackware.jpg" , description:"2", parent: 7},
+    { key: 0, name: "Xubuntu", source: "./image/Xubuntu.png", description: "2", parent: 9},
+    { key: 1, name: "Kubuntu", source: "./image/kubuntu.jpg", description: "1", parent:4},
+    { key: 2, name: "Suse", source: "./image/Suse.png", description: "0",parent:10},
+    { key: 3, name: "Arch Linux", source: "./image/Arch_Linux.png", description: "2", parent: 7},
+    { key: 4, name: "Ubuntu", source: "./image/Ubuntu.png", description: "1", parent: 5},
+    { key: 5, name: "DEBIAN", source: "./image/Debian.png", description:"2", parent: 7},
+    { key: 6, name: "RED HAT", source: "./image/Red_Hat.png", description:"3",parent: 7},
+    { key: 7, name: "Linux", source: "./image/Linux.png", description:"2", parent: 8},
+    { key: 8, name: "GNU", source: "./image/GNU.png", description: "Es el padre de Linux"},
+    { key: 9, name: "Linux Mint", source: "./image/Linux_Mint.png", description:"2", parent: 4},
+    { key: 10, name: "Slack Ware", source: "./image/slackware.jpg" , description:"2", parent: 7},
   ];
 
   myDiagram.model = new go.TreeModel(nodeDataArray);
