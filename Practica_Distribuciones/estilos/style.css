@@ -1,7 +1,21 @@
+#Titulo{
+  color: #3B3936;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  
+}
+img{
+  height: 10rem;
+  width: 10rem;
+  object-fit: contain;
+}
+
 #myDiagramDiv {
     width: 95%;
-    height: 760px;
+    height: 600px;
     margin: 0 auto; /* Esto centra el div horizontalmente */
     margin-top: 2rem;
     margin-bottom: 2rem;
+    
   }
