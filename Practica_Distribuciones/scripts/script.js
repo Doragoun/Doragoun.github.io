@@ -76,7 +76,7 @@ function init() {
     { key: 7, name: "Linux", source: "./imagenes/Linux.png", description:"2", parent: 8},
     { key: 8, name: "GNU", source: "./imagenes/GNU.png", description: "Es el padre de Linux"},
     { key: 9, name: "Linux Mint", source: "./imagenes/Linux_Mint.png", description:"2", parent: 4},
-    { key: 10, name: "Slack Ware", source: "./imagenes/slackware.jpg", description:"2", parent: 7},
+    { key: 10, name: "Slack Ware", source: "./imagenes/slackware.jpg" , description:"2", parent: 7},
   ];
 
   myDiagram.model = new go.TreeModel(nodeDataArray);
