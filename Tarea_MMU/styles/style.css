@@ -1,0 +1,19 @@
+.Titulo{
+  color: papayawhip;
+  text-align: center;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+img{
+  height: 10rem;
+  width: 10rem;
+  object-fit: contain;
+}
+
+#myDiagramDiv {
+    width: 100%;
+    height: 600px;
+    background-color: papayawhip;
+  }
+  
